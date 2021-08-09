@@ -26,7 +26,7 @@ def instructions():
     return""
 # main function
 
-played_before = yes_no("Have you played before?")
+played_before = yes_no("Have you played before? ")
 
 if played_before == "no":
     instructions()
